@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html>
+<f:view xmlns:f="http://java.sun.com/jsf/core" xmlns:af="http://xmlns.oracle.com/adf/faces/rich">
+    <af:document title="INICIO.jsf" id="d1" binding="#{backingBeanScope.backing_INICIO.d1}">
+        <af:form id="f1" binding="#{backingBeanScope.backing_INICIO.f1}">
+            <af:panelHeader text="Ingreso" id="ph1" binding="#{backingBeanScope.backing_INICIO.ph1}">
+                <f:facet name="context"/>
+                <f:facet name="toolbar"/>
+                <f:facet name="menuBar"/>
+                <f:facet name="legend"/>
+                <f:facet name="info"/>
+                <af:inputText label="Usuario" id="it1" binding="#{backingBeanScope.backing_INICIO.it1}"/>
+                <af:inputText label="Contraseña" id="it2" binding="#{backingBeanScope.backing_INICIO.it2}"/>
+                <af:button text="Ingresar" id="b1" binding="#{backingBeanScope.backing_INICIO.b1}"/>
+            </af:panelHeader>
+        </af:form>
+    </af:document>
+    <!--oracle-jdev-comment:auto-binding-backing-bean-name:backing_INICIO-->
+</f:view>
