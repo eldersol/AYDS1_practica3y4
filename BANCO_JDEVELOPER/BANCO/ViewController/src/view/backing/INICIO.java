@@ -5,6 +5,7 @@ import oracle.adf.view.rich.component.rich.RichForm;
 import oracle.adf.view.rich.component.rich.input.RichInputText;
 import oracle.adf.view.rich.component.rich.layout.RichPanelHeader;
 import oracle.adf.view.rich.component.rich.nav.RichButton;
+import oracle.adf.view.rich.component.rich.output.RichSpacer;
 
 public class INICIO {
     private RichForm f1;
@@ -13,6 +14,15 @@ public class INICIO {
     private RichInputText it1;
     private RichInputText it2;
     private RichButton b1;
+    private RichSpacer s1;
+    private RichSpacer s2;
+    private RichSpacer s3;
+    private RichSpacer s4;
+
+
+    public int sumar(int n1, int n2){
+        return n1 + n2;   
+                                  }
 
     public void setF1(RichForm f1) {
         this.f1 = f1;
@@ -60,5 +70,38 @@ public class INICIO {
 
     public RichButton getB1() {
         return b1;
+    }
+
+    public void setS1(RichSpacer s1) {
+        this.s1 = s1;
+    }
+
+    public RichSpacer getS1() {
+        return s1;
+    }
+
+    public void setS2(RichSpacer s2) {
+        this.s2 = s2;
+    }
+
+    public RichSpacer getS2() {
+        return s2;
+    }
+
+    public void setS3(RichSpacer s3) {
+        this.s3 = s3;
+    }
+
+    public RichSpacer getS3() {
+        return s3;
+    }
+
+
+    public void setS4(RichSpacer s4) {
+        this.s4 = s4;
+    }
+
+    public RichSpacer getS4() {
+        return s4;
     }
 }

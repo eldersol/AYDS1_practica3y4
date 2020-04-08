@@ -9,10 +9,14 @@
                 <f:facet name="menuBar"/>
                 <f:facet name="legend"/>
                 <f:facet name="info"/>
+                <af:spacer width="28" height="28" id="s3" binding="#{backingBeanScope.backing_INICIO.s3}"/>
                 <af:inputText label="Usuario" id="it1" binding="#{backingBeanScope.backing_INICIO.it1}"/>
+                <af:spacer width="37" height="11" id="s1" binding="#{backingBeanScope.backing_INICIO.s1}"/>
                 <af:inputText label="Contraseña" id="it2" binding="#{backingBeanScope.backing_INICIO.it2}"/>
-                <af:button text="Ingresar" id="b1" binding="#{backingBeanScope.backing_INICIO.b1}"/>
+                <af:spacer width="27" height="28" id="s2" binding="#{backingBeanScope.backing_INICIO.s2}"/>
             </af:panelHeader>
+            <af:spacer width="72" height="30" id="s4" binding="#{backingBeanScope.backing_INICIO.s4}"/>
+            <af:button text="Ingresar" id="b1" binding="#{backingBeanScope.backing_INICIO.b1}"/>
         </af:form>
     </af:document>
     <!--oracle-jdev-comment:auto-binding-backing-bean-name:backing_INICIO-->
